@@ -8,11 +8,19 @@ and open the template in the editor.
     Author     : Tufyak
 */
 
+body{
+ width:800px;
+ padding-left:50%;
+ margin:0px;
+}
+ 
 #main{
  width:800px;
- background-image: url(../images/fon_bg.jpg);
+ margin-left:-400px;
+ background-image: url(images/fon_bg.jpg);
  background-repeat: repeat-y;
 }
+
 
 #header{
  width:800px;
@@ -73,3 +81,5 @@ and open the template in the editor.
  background-image: url(../images/footer.jpg);
  background-repeat: repeat-x;
 }
+
+ 
