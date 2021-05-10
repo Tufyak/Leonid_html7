@@ -4,29 +4,47 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-
-
- <html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style_6.css">
-    <title>Flex</title>
+  <meta charset="UTF-8">
+  <title>Форма для заполнения flexbox</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="../style/style_6.css">
+
 </head>
-   <body>
-<div class="row">
- 
-  <div class="row_cell">блок 1</div>
- 
-  <div class="row_cell row_item"></div>
- 
-  <div class="row_cell row_item_1">блок2
-</div>
- 
-</div>
+<body>
+<form class="Form">
+  <legend class="legend">Дефолтная форма</legend>
+  <br />
+  <s class="group">
+    <label>Введите имя</label>
+    <input class="field" placeholder="Вписывайте в это поле ->" />
+    <input class="field" />
+  </s>
+  
+  <s class="group">
+    <label>Первый:</label>
+    <d class="is-fancy">
+      <button class="item">***</button>
+      <input class="field">
+      <button class="item">Ок</button>
+    </d>
+  </s>
+  
+  <s class="group">
+    <label>Второй:</label>
+    <d class="is-fancy">
+      <input class="field">
+      <button class="item">Ок</button>
+    </d>
+  </s>
 
+  <s class="group">
+    <label></label>
+    <button class="item">Подтвердить</button>
+    <button class="item">Отмена</button>
+  </s>
+</form>
 
-   </body>
- 
+  
 </html>
